@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <!--Import jQuery before bootstrap.css-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse nav-color">
+        <div class="container-flex">
+          <a class="navbar-brand" href="#"><img class="logo-size" src="../assets/images/logo.png" alt=""></a>
+          <div class="navbar-header position-nav-movil">
+            <button type="button" class="navbar-toggle collapsed button-color" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar line-color"></span>
+              <span class="icon-bar line-color"></span>
+              <span class="icon-bar line-color"></span>
+            </button>
+          </div>
+          <div id="navbar" class="col-xs-12  navbar-collapse collapse nav-position">
+            <ul class="nav navbar-nav">
+					    <div>
+		            <li>
+		              <a href="#">Lugares</a>
+		            </li>
+  		          <li>
+  		            <a href="#">Cafés</a>
+  		          </li>
+  							<li>
+  		            <a href="#">Restaurantes</a>
+  		          </li>
+					    </div>
+				    </ul>
+				  </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <img class="col-xs-offset-4 col-xs-4" src="../assets/images/logo.png" alt="">
+      </div>
+      <div class="container style-input">
+        <label>Búsqueda</label>
+        <input type="email" class="form-control" id="search" placeholder="Buscar por distritos">
+      </div>
+      <div class="container gallery" id="gallery">
+      </div>
+    </main>
+
+    <!--Import jQuery before bootstrap.js-->
+    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/data.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>
