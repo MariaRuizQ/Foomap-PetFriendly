@@ -1,6 +1,6 @@
 var dataFood = {
   'Bao?':{
-    'Logo':'https://www.facebook.com/baoacomer/photos/a.878359075618840.1073741825.868178746636873/987367018051378/?type=1&theater',
+    'Logo':'https://www.boxpark.co.uk/assets/Managed/RetailerGalleries/58-bao-bao-taiwanese-street-food/_resampled/ScaleWidthWyI3NTAiXQ/Bao-Bao-2.jpg',
     'Tipo de comida': 'Comida rápida, Asiática, Apto para vegetarianos, Opciones veganas',
     'Características':'Comida para llevar, Asientos al aire libre, Asiento, Acceso para silla de ruedas, Sirve alcohol',
     'Dónde': {
@@ -64,7 +64,7 @@ var dataFood = {
     'Platos':['Campesina S/17.00','Zucchini tomete seco S/17.00','Pirámide de lúcuma S/13.00','Pie vegano limón S/9.00']
   },
   'Cerato Café':{
-    'Logo':'https://www.facebook.com/886798681436285/photos/a.886800291436124.1073741825.886798681436285/886800298102790/?type=1&theater',
+    'Logo':'https://cdn-e360.s3-sa-east-1.amazonaws.com/proyectop_file_fd069fb91b52eefd1fe8b80c332335c1_4881_.jpg',
     'Tipo de comida': 'Café, Delicatessen',
     'Características':'Especialidad son waffles y cremoladas. Se puede hacer reservas para celebrar el cumpleaños o fiestas especiales a nuestras mascotas.',
     'Dónde': {
